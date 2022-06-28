@@ -31,6 +31,7 @@ export default function Index() {
             No Link here
           </a>
         </li>
+        <h2>another paragraph</h2>
       </ul>
     </div>
   );
