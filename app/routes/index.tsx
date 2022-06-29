@@ -26,12 +26,8 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
-        <li>
-          <a target="_blank" >
-            No Link here
-          </a>
-        </li>
         <h2>another paragraph</h2>
+        <h1>we also have an h1</h1>
       </ul>
     </div>
   );
