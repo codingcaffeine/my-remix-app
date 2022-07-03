@@ -1,19 +1,31 @@
-export default function Index() {
+import { Avatar, Box, Wrap, WrapItem } from "@chakra-ui/react"
+
+const Index = () => {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <h3>Welcome to Remix</h3>
-      </ul>
-    </div>
-  );
+    <Wrap>
+      <WrapItem>
+        <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Kola Tioluwani' src='https://bit.ly/tioluwani-kolawole' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Kent Dodds' src='https://bit.ly/kent-c-dodds' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Prosper Otemuyiwa' src='https://bit.ly/prosper-baba' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Christian Nwamba' src='https://bit.ly/code-beast' />
+      </WrapItem>
+      <WrapItem>
+        <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
+      </WrapItem>
+    </Wrap>
+  )
 }
+
+export default Index
